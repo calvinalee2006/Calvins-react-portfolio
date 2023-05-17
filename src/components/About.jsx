@@ -18,7 +18,23 @@ const About = () => {
                             Please take a look around and get to know me. </p>
                     </div>
                     <div>
-                        <p>About your coding journey</p>
+                        <p>
+                            A self-educated web developer that also has a background as an automotive mechanic.
+                            Being a mechanic and learning web development are very similar and
+                            present the same challenges when it comes to keeping up with the industry. Learning a new language
+                            or framework is the equivalent of learning about a vehicles mechanical or electrical system.
+                            Diagnosis is the biggest similarity for both professions, when presented with a new problem a lot of research
+                            and trial and error are performed to present the best possible output for that specific situation. <br />
+                            As passionate developer, I would like to use my previous skills of research, troubleshooting, and diagnosis to
+                            help build proper web applications and continue educating myself in an industry that is steadily growing. Being able
+                            to help a development team with a project, would be a beneficial experience for myself since it would provide new information
+                            to consume, sharpen my developer skills, and would assist a development team in a successful application build.
+
+
+
+
+
+                        </p>
                     </div>
                 </div>
             </div>
