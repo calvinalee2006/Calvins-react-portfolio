@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { FaBars, FaTimes, FaGithub, FaLinkedin, FaFacebook } from 'react-icons/fa';
+import { FaBars, FaTimes, FaGithub, FaLinkedin } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { Link } from 'react-scroll'
@@ -40,7 +40,7 @@ const Navbar = () => {
                             Contact
                         </Link>
                     </li>
-                    <li className='py-6 text-4xl'>Contact</li>
+                    <li className='py-6 text-4xl'></li>
                 </ul>
 
 
@@ -77,7 +77,7 @@ const Navbar = () => {
                             Contact
                         </Link>
                     </li>
-                    <li className='py-6 text-4xl'>Contact</li>
+                    <li className='py-6 text-4xl'></li>
                 </ul>
 
                 {/*Social icons */}
