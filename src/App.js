@@ -2,8 +2,9 @@ import Navbar from './components/Navbar'
 import Home from './components/Home'
 import About from './components/About'
 import Skills from './components/skills'
-import "./index.css"
 import Work from './components/Work'
+import Contact from './components/Contact'
+import "./index.css"
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
 <About />
 <Skills />
 <Work />
+<Contact />
 </>
   )
 }
