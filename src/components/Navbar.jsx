@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
-import { resume } from '../assets/resume.pdf'
+import Resume from '../assets/resume.pdf'
 import { Link } from 'react-scroll';
 
 
@@ -113,7 +113,7 @@ const Navbar = () => {
                         <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
                             <a
                                 className="flex justify-between items-center w-full text-gray-300"
-                                href="file:///C:/Users/Antho/OneDrive/Desktop/mastermind%20Course%202/web%20developer%20resume%202023.pdf"
+                                href={Resume}
                             >
                                 Resume <BsFillPersonLinesFill size={30} />
                             </a>
