@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 function Contact() {
     return (
@@ -7,6 +7,7 @@ function Contact() {
                 <div className='pb-8'>
                     <p className='text-4xl font-bold inline border-b-4 border-pink-600 text-gray-300'>Contact</p>
                     <p className='text-gray-300 py-4'>// Submit the form below or email me at Calvinalee2006@hotmail.com</p>
+                    <p className='text-greay-300 py-4'></p>
                 </div>
                 <input className='bg-[#ccd6f6] p-2' type="text" placeholder="Name" name="name" />
                 <input className='my-4 p-2 bg-[#ccd6f6]' type="email" placeholder="Email" name="email" />
