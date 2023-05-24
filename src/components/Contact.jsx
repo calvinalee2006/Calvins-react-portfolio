@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaBars, FaTimes, FaGithub, FaLinkedin } from 'react-icons/fa';
+import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import Resume from '../assets/resume.pdf'
@@ -10,14 +10,14 @@ function Contact() {
             <form method='POST' action="https://getform.io/f/a2d0b408-8159-47da-a170-465940d51673" className='flex flex-col max-w-[600px] w-full'>
                 <div className='pb-8'>
                     <p className='text-4xl font-bold inline border-b-4 border-pink-600 text-gray-300'>Contact</p>
-                    <p className='text-gray-300 py-4'>// Submit the form below or email me at Calvinalee2006@hotmail.com</p>
+                    <p className='text-gray-300 py-4'>// Submit the form below or feel free to contact me through one of the links provided. </p>
                     {/* container */}
-                    <div className="display: block">
+                    <div className=" display: inline-flex -mx-2 ">
 
                         {/* First anchor */}
                         <div>
                             <a
-                                className="flex justify-between items-center w-full text-gray-300"
+                                className="flex justify-between items-center  sm:w-0 px-4 text-gray-300"
                                 href="https://www.linkedin.com/in/calvinalee/"
                             >
                                 <FaLinkedin size={40} />
@@ -27,7 +27,7 @@ function Contact() {
                         {/* Second Anchor */}
                         <div>
                             <a
-                                className="flex justify-between items-center w-full text-gray-300"
+                                className="flex justify-between items-center sm:w-0  w-full px-4 text-gray-300"
                                 href="https://github.com/calvinalee2006"
                             >
                                 <FaGithub size={40} />
@@ -37,21 +37,22 @@ function Contact() {
                         {/* Third Anchor */}
                         <div>
                             <a
-                                className="flex justify-between items-center w-full text-gray-300"
+                                className="flex justify-between items-center sm:w-0  w-full px-4 text-gray-300"
                                 href="https://www.CalvinALee2006@hotmail.com"
                             >
                                 <HiOutlineMail size={40} />
                             </a>
+                        </div>
 
-                            {/* Fourth Anchor */}
-                            <div>
-                                <a
-                                    className="flex justify-between items-center w-full text-gray-300"
-                                    href={Resume}
-                                >
-                                    <BsFillPersonLinesFill size={40} />
-                                </a>
-                            </div>
+                        {/* Fourth Anchor */}
+                        <div>
+                            <a
+                                className="flex justify-between items-center  sm:w-0  w-full px-4 text-gray-300"
+                                href={Resume}
+                            >
+                                <BsFillPersonLinesFill size={40} />
+                            </a>
+
                         </div>
 
 
