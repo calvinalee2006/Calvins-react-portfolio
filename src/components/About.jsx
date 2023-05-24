@@ -29,11 +29,6 @@ const About = () => {
                             help build proper web applications and continue educating myself in an industry that is steadily growing. Being able
                             to help a development team with a project, would be a beneficial experience for myself since it would provide new information
                             to consume, sharpen my developer skills, and would assist a development team in a successful application build.
-
-
-
-
-
                         </p>
                     </div>
                 </div>

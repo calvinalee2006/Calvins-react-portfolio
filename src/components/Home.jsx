@@ -18,7 +18,7 @@ const Home = () => {
                     technician, that is accustomed to working excessively to achieve the optimal result application
                     for the customer.</p>
                 <div>
-                    <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600">
+                    <button className="  text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600">
                         <Link to="work" smooth={true} duration={500}>
                             View Work
                         </Link>
