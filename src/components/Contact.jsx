@@ -6,7 +6,7 @@ import Resume from '../assets/resume.pdf'
 
 function Contact() {
     return (
-        <div name='contact' className='w-full h-screen bg-[#0a192f] flex justify-center items-center pt-8  '>
+        <div name='contact' className='w-full h-screen bg-[#0a192f] flex justify-center items-center p-4'>
             <form method='POST' action="https://getform.io/f/a2d0b408-8159-47da-a170-465940d51673" className='flex flex-col max-w-[600px] w-full'>
                 <div className='pb-8'>
                     <p className='text-4xl font-bold inline border-b-4 border-pink-600 text-gray-300'>Contact</p>
